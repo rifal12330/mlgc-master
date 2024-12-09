@@ -15,7 +15,7 @@ async function predictClassification(model, image) {
     const result = resultScore > 50 ? 'Cancer' : 'Non-cancer';
 
     const suggestion =
-      result === 'Cancer' ? 'Segera periksa ke dokter!' : 'Anda sehat!';
+      result === 'Cancer' ? 'Segera periksa ke dokter!' : 'Penyakit kanker tidak terdeteksi.';
 
     return { resultScore, result, suggestion };
   } catch (error) {

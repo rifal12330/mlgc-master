@@ -1,0 +1,6 @@
+{  
+ "backend-service-url": "https://mlgc-backend-460155632467.asia-southeast2.run.app",
+ "frontend-service-url": "https://submissionmlgc-muhammadrifal.uc.r.appspot.com/",
+ "project-id": "submissionmlgc-muhammadrifal",
+ "bucket-name": "mlgc-bucket-1933"
+}
