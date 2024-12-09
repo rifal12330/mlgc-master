@@ -26,7 +26,7 @@ async function postPredict(request, h) {
       status: 'success',
       message:
         resultScore > 99
-          ? 'Model is predicted successfully.'
+          ? 'Model is predicted successfully'
           : 'Model is predicted successfully but under threshold. Please use the correct picture',
       data,
     })
