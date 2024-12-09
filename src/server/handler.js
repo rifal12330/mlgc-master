@@ -27,7 +27,7 @@ async function postPredict(request, h) {
       message:
         resultScore > 99
           ? 'Model is predicted successfully'
-          : 'Model is predicted successfully but under threshold. Please use the correct picture',
+          : 'Model is predicted successfully',
       data,
     })
     .code(201);
